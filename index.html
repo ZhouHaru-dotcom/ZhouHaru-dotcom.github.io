@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haru</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/6b3b4bdb2d.js" crossorigin="anonymous"></script>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #1a1a1a, #000);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2a2a2a;
+  margin-bottom: 15px;
+}
+
+/* Username */
+.username {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+/* Social Icons */
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+
+.icon-row a {
+  color: white;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.icon-row a:hover {
+  color: #ff4d6d;
+  transform: scale(1.2);
+}
+
+/* Featured Banner */
+.featured {
+  max-width: 420px;
+  margin: auto;
+  background: #111;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255,77,109,0.1);
+  margin-bottom: 25px;
+  transition: 0.3s;
+}
+
+.featured:hover {
+  box-shadow: 0 0 25px rgba(255,77,109,0.3);
+}
+
+.featured img {
+  width: 100%;
+  display: block;
+}
+
+.featured p {
+  padding: 14px;
+  font-weight: 500;
+}
+
+/* Link Buttons */
+.link-btn {
+  display: block;
+  max-width: 420px;
+  margin: 14px auto;
+  padding: 16px;
+  background: #111;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+  border: 1px solid #1f1f1f;
+}
+
+.link-btn:hover {
+  background: #1a1a1a;
+  border-color: #ff4d6d;
+  box-shadow: 0 0 15px rgba(255,77,109,0.2);
+}
+</style>
+
+</head>
+<body>
+
+<!-- PROFILE IMAGE -->
+<img src="profile.jpg" class="profile-img">
+
+<div class="username">Haru</div>
+<div class="subtitle">•Antisocial•</div>
+
+<!-- SOCIAL ICONS -->
+<div class="icon-row">
+  <a href="https://www.facebook.com/share/19z8SgQdvr/"><i class="fab fa-facebook"></i></a>
+  <a href="https://www.instagram.com/xo_z.haru?igsh=Nnc3MDE4eTRzb2Nl"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.tiktok.com/@xo_z.haru?_r=1&_t=ZS-942IhjLlDes"><i class="fab fa-tiktok"></i></a>
+  <a href="https://x.com/MiRu2i"><i class="fab fa-x-twitter"></i></a>
+  <a href="https://discord.com/users/1350683609295491165"><i class="fab fa-discord"></i></a>
+</div>
+
+<!-- FEATURED CARD -->
+<div class="featured">
+  <img src="banner.jpg">
+  <p>Featured Project</p>
+</div>
+
+<!-- EXTRA LINKS -->
+<a href="#" class="link-btn">Main Platform</a>
+<a href="#" class="link-btn">Second Link</a>
+
+</body>
+</html>
